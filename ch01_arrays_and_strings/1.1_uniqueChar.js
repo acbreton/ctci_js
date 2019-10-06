@@ -1,5 +1,9 @@
-function main() {
+function main() {  
+    // Implement an algorithm to determine if a string has all unique characters.
+    // What if you cannot use additional data structures?
 
+    // Time complexity = O(n);
+    // Space complexity = O(n);
     function uniqueChar_dataStructure(str) {
         let charMap = {};
 
@@ -14,6 +18,8 @@ function main() {
         return true;
     }
 
+    // Time complexity = O(n * log(n));
+    // Space complexity = O(1);
     function uniqueChar_noDS(str) {
         let sortStr = str.split("").sort().join("");
         for(let i = 0; i < sortStr.length; i++) {

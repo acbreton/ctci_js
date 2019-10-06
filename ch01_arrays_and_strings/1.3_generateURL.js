@@ -1,5 +1,8 @@
 // URLify: Write a method to replace all spaces in a string with %20.
 // Function takes two arguments, the str and the length of the string
+
+// Time complexity = O(n);
+// Space complexity = O(1);
 function generateURL(str) {
     let URL = "";
 
