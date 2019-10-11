@@ -22,5 +22,13 @@ function removeDups(linkedList) {
 // How would you solve this problem if a temporary buffer is not allowed?
 
 function removeDups(linkedList) {
-    
+    let currentNode = linkedList.head;
+
+    while(currentNode.next) {
+        if(currentNode.next.data === currentNode.data) {
+            linkedList.remove(currentNode.next);
+        }
+    }
+
+    return linkedList;
 }
