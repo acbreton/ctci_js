@@ -12,6 +12,7 @@ function generateURL(str) {
     return URL;
 }
 
+// TEST CASES
 let str1 = 'welcome to the url generator';
 let str2 = 'url generated';
 let str3 = ' I d oNt seE it';

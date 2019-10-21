@@ -18,6 +18,7 @@ function removeDups(linkedList) {
     }
     return newList;
 }
+
 // FOLLOW UP:
 // How would you solve this problem if a temporary buffer is not allowed?
 

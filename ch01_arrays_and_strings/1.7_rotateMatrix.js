@@ -30,6 +30,7 @@ function rotateMatrix(image) {
 	return newImage;
 }
 
+// TEST CASES
 console.log(rotateMatrix([
     [1,2,3],
     [4,5,6],

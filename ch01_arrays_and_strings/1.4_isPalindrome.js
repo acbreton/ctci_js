@@ -38,7 +38,7 @@ function isPalindromePermutation(str) {
 	return true;
 }
 
-// TEST CASE
+// TEST CASES
 let str1 = 'Tact Coa';
 let str2 = 'racerac';
 let str3 = 'asdffdsz4a';
